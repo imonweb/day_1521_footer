@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+}
+
+body {
+ 
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #3A4D7C;
+}
+
+footer {
+  
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+
+  .container {
+    background-color: #1E3161;
+    width: 100%;
+    max-width: 1200px;
+    height: 500px;
+    border-radius: 10px;
+  }
+ 
+}
