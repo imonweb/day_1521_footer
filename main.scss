@@ -18,7 +18,10 @@ footer {
     grid-column: 1 / 3;
     grid-row: 1 / 1;
 
-    .menu {}
+    .menu {
+      grid-column: 2 / 2;
+      grid-row: 2 / 2;
+    }
 
     .language {}
 
