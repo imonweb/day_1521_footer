@@ -26,6 +26,14 @@ body {
   background-color: #3A4D7C;
 }
 
+.col-l-3 {
+  width: 317px;
+  height: 405px;
+  padding: 40px 0 20px 20px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
 footer {
   width: 100%;
   min-height: 100vh;
@@ -41,12 +49,29 @@ footer .container {
   height: 500px;
   border-radius: 10px;
   display: grid;
-  grid-column: 1 / 3;
-  grid-row: 1 / 1;
+  grid-template-columns: 300px 300px 300px;
 }
 
 footer .container .menu {
-  grid-column: 2 / 2;
-  grid-row: 2 / 2;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+footer .container .language {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+footer .container .language ul.language__links {
+  display: flex;
+}
+
+footer .container .language ul.language__links a {
+  padding: 5px;
+}
+
+footer .container .social__media {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
 }
 /*# sourceMappingURL=main.css.map */

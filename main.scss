@@ -9,23 +9,44 @@ footer {
   place-items: center;
 
   .container {
+    // position: relative;
     background-color: #1E3161;
     width: 100%;
     max-width: 1200px;
     height: 500px;
     border-radius: 10px;
     display: grid;
-    grid-column: 1 / 3;
-    grid-row: 1 / 1;
+    grid-template-columns: 300px 300px 300px;
 
     .menu {
-      grid-column: 2 / 2;
-      grid-row: 2 / 2;
+      // position: absolute;
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+
+      h4 {
+
+      }
     }
 
-    .language {}
+    .language {
+      // position: absolute;
+      grid-column: 2 / 3;
+      grid-row: 1 / 2;
 
-    .social__media {}
+      ul.language__links {
+        display: flex;
+
+        a {
+          padding: 5px;
+        }
+      }
+    }
+
+    .social__media {
+      // position: absolute;
+       grid-column: 3 / 4;
+      grid-row: 1 / 2;
+    }
   }
  
 }
